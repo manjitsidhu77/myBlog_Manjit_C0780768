@@ -1,0 +1,187 @@
+header {
+    padding: 10px;
+    text-align: center;
+    background: #444141;
+    color: white;
+    height: 120px;
+}
+header span#title {
+    font-style: italic;
+    font-size: 30px;
+    font-weight: bold;
+}
+header span#tag {
+    padding: 30px;
+    font-size: 20px;
+    font-weight: bold;
+}
+img#logo{
+
+    margin-right: 3%;
+    width: 70px;
+}
+#menubar {
+    width: 100%;
+    height: 72px;
+    padding: 0;
+    background:  #afb655
+}
+
+ul#menu,
+ul#menu li {
+    float: left;
+    margin: 0;
+    padding: 0
+}
+
+
+ul#menu li {
+    list-style: none
+}
+
+ul#menu li a {
+    letter-spacing: .1em;
+    font: normal 100% arial, sans-serif;
+    display: block;
+    float: left;
+    height: 37px;
+    padding: 29px 26px 6px 26px;
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+    background: 0 0
+}
+
+article {
+    padding: 10px;
+    width: 72%;
+    float: right;
+    
+
+}
+aside {
+    padding: 10px;
+    width: 25%;
+    float: left;
+    background-color: #807171;
+
+}
+
+ul a {
+    font-size: 20px;
+    padding: 10px;
+}
+ul
+{
+    line-height: 30px;
+}
+
+p2{
+    float: left;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 5%;
+    background-color: #ddd;
+
+}
+p3{
+    float: right;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 5%;
+    margin-right: 10%;
+    background-color: #ddd;
+}
+p4{
+    float: left;
+    font-size: 25px;
+    background-color: bisque;
+
+}
+p5{
+    float:left;
+    margin-top: 10%;
+    font-size: 20px;
+    color: antiquewhite;
+    background-color: #444141;
+    padding: 2%;
+
+}
+p6{
+    margin-top: 10%;
+    float:right;
+    font-size: 20px;
+    background-color: #ddd;
+    padding: 2%;
+
+}
+
+p7{
+  float: left;
+  margin-left: 10%;
+  font-size: 30px;
+  margin-top: 10%;
+  font-style: italic;
+  color: #252222;
+}
+Registration{
+    float: right;
+    margin-right: 10%;
+}
+
+img#left {
+    margin-left: 10px;
+    float: right;
+    margin-right: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 400px;
+}
+img {
+    margin-right: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 400px;
+}
+
+
+table {
+    border-collapse: collapse;
+    width: 55%;
+}
+table#work{
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even){background-color: #f2f2f2}
+
+th {
+    background-color: #1293ee;
+    color: white;
+}
+img.hover-shadow {
+    transition: 0.3s;
+}
+
+.hover-shadow:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+footer {
+    clear: both;
+    background: #444141;
+    height: 50px;
+    padding: 10px;
+    text-align: center;
+    color: white;
+}
